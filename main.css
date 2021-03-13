@@ -83,6 +83,7 @@ i.head {
   line-height: 100%;
   text-align: center;
   align-items: center;
+  /* border-top: 1px rgb(107, 107, 107) solid; */
 }
 i.info_like {
   font-size: larger;
@@ -125,6 +126,7 @@ i.info_like {
   grid-template-columns: 50px auto 80px;
   /* height: 50px; */
   align-items: center;
+  border-top: 1px rgb(107, 107, 107) solid;
 }
 #pic {
   text-align: center;
@@ -136,8 +138,8 @@ i.info_like {
 }
 #subscribe {
   text-align: center;
-  font-weight: lighter;
-  color: cornflowerblue;
+  font-weight: bolder;
+  color: red;
 }
 .next {
   height: 1fr;
@@ -147,14 +149,16 @@ i.info_like {
   grid-template-rows: 80px 80px 80px 80px 80px 80px;
   /* overflow: scroll; */
 }
+/* #video {
+  border-top: rgb(107, 107, 107) 1px solid;
+} */
 .next div {
   display: block;
   height: 100%;
 }
-/* .next_videos {
-    display: grid;
-    grid-template-columns: 143px 1fr;
-} */
+.next_videos {
+  border-top: rgb(107, 107, 107) 1px solid;
+}
 .next img {
   height: 100%;
   float: left;
@@ -170,3 +174,6 @@ i.info_like {
   /* margin-left: 20px; */
   /* float: right; */
 }
+/* .next_videos {
+  border-bottom: 1px rgb(107, 107, 107) solid;
+} */
