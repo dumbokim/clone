@@ -1,9 +1,8 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 body {
-  height: 810px;
-  /* min-height: 660px; */
-  width: 375px;
-  /* min-width: 360px; */
+  /* height: 810px; */
+
+  /* width: 375px; */
   font-family: "Hanna";
   margin: 0;
 }
