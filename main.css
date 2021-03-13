@@ -1,10 +1,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 body {
-  height: 660px;
+  height: 810px;
   /* min-height: 660px; */
   width: 375px;
   /* min-width: 360px; */
   font-family: "Hanna";
+  margin: 0;
 }
 div {
   background-color: whitesmoke;
@@ -66,7 +67,14 @@ i.head {
   padding: auto;
 }
 .info_title {
-  margin-left: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.info_title p {
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 7px;
+  font
 }
 
 .info_like {
@@ -136,7 +144,21 @@ i.info_like {
   color: darkgray;
 }
 .next {
-  height: 30%;
+  height: 1fr;
   padding: 3px;
-  background-color: darkmagenta;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-rows: 80px 80px 80px 80px 80px 80px;
+  overflow: scroll;
+}
+.next div {
+  display: block;
+  height: 100%;
+}
+.next img {
+  height: 100%;
+}
+
+.next a {
+  text-align: center;
 }
