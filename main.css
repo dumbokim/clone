@@ -149,16 +149,26 @@ i.info_like {
   background-color: whitesmoke;
   display: grid;
   grid-template-rows: 80px 80px 80px 80px 80px 80px;
-  overflow: scroll;
+  /* overflow: scroll; */
 }
 .next div {
   display: block;
   height: 100%;
 }
+/* .next_videos {
+    display: grid;
+    grid-template-columns: 143px 1fr;
+} */
 .next img {
   height: 100%;
+  float: left;
+  padding-right: 10px;
 }
 
 .next a {
-  text-align: center;
+    float:inline-start;
+    padding-top: 5px;
+  /* text-align: center;*/
+  /* margin-left: 20px; */
+  /* float: right; */
 }
