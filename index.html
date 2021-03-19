@@ -7,13 +7,16 @@
     <title>Clonetube_Yourssu</title>
     <link rel="stylesheet" href="main.css">
     <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <script src="main.js"></script>
     
 </head>
 <body>
     <div class = "head">
-        <div id="head">
-            <i class="fab fa-youtube fa-2x" style="color: red;"  ></i>
-            <a id = "title">YouTube</a>
+        <div id="head_btn">
+            <div id="head">
+                <i class="fab fa-youtube fa-2x" style="color: red;"  ></i>
+                <a id = "title">YouTube</a>
+            </div>
         </div>
     </div>
     <div class = "video">
@@ -27,7 +30,7 @@
         </div>
         <div class="info_like">
             <div class="info_like_" id="one">
-                <button id="bt_like" onclike="like_click()">
+                <button id="bt_like">
                     <i class="far fa-thumbs-up fa-2x"></i>
                     <p id="info_like">1K</p>
                 </button>
@@ -47,10 +50,15 @@
                 </button>
             </div>
             <div class="info_like_" id="three">
-                <button>
+                <button id="bt_share">
                     <i class="far fa-share-square fa-2x"></i>
                     <p id="info_share">공유</p>
                 </button>
+                <!-- <div id="share-pop">
+                    <div>
+            
+                    </div>
+                </div> -->
             </div>
             <div class="info_like_" id="four">
                 <button>
@@ -74,6 +82,9 @@
             </div>
             <div id="subscribe">
                 구독
+            </div>
+            <div id="subscribe_">
+                구독중
             </div>
         </div>
     </div>
